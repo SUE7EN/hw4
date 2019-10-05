@@ -19,6 +19,10 @@ https://editor.p5js.org/cp1/sketches/e3aF0d_Ix
   6 times.
 
 2.What are two ways of increasing the spacing between rings?
-  
+  1) In line 16, time "(x.length - i)" by a number bigger than 1.
+  2) In line 15, change "10" to a bigger number.
  
 3.How can you make the ellipse trail longer?
+  In line 15, time "10" by a number bigger than 1.
+  In line 16, divide "(x.length - i)" by that number.
+  In line 19 and 20, time "-50" by that number.
